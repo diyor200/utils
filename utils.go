@@ -11,6 +11,7 @@ const (
 	ColorGreen
 	ColorYellow
 	ColorBlue
+	ColorMagenta
 )
 
 func PrintColor(text string, color int) {
@@ -23,6 +24,8 @@ func PrintColor(text string, color int) {
 		colorize.Yellow(text)
 	case ColorBlue:
 		colorize.Blue(text)
+	case ColorMagenta:
+		colorize.Magenta(text)
 	default:
 		fmt.Println(text)
 	}
