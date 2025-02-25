@@ -1,4 +1,4 @@
-module github.com/dhnikolas/utils/v2
+module github.com/diyor200/utils/v2
 
 go 1.24.0
 
