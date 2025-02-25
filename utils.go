@@ -31,7 +31,7 @@ func PrintColor(text string, color int) {
 	}
 }
 
-func ContainsInt(a []int, x int) {
+func InSlice(a []int, x int) {
 	for _, n := range a {
 		if x == n {
 			colorize.Green("Exists")
