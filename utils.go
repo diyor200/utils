@@ -31,12 +31,12 @@ func PrintColor(text string, color int) {
 	}
 }
 
-func ContainsInt(a []int, x int) bool {
+func ContainsInt(a []int, x int) {
 	for _, n := range a {
 		if x == n {
-			return true
+			colorize.Green("Exists")
 		}
 	}
 
-	return false
+	colorize.Red("Does not Exists")
 }
