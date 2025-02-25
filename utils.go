@@ -35,8 +35,8 @@ func InSlices(a []int, x int) {
 	for _, n := range a {
 		if x == n {
 			colorize.Green("Exists")
+			return
 		}
 	}
-
 	colorize.Red("Does not Exists")
 }
